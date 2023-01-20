@@ -1,4 +1,4 @@
-let projectsBtn = document.getElementById ('projects');
+// let projectsBtn = document.getElementById ('projects');
 let sec1 = document.getElementById ('sec1');
 let sec2 = document.getElementById ('sec2');
 let sec3 = document.getElementById ('sec3');
@@ -9,14 +9,14 @@ let audio = new Audio ('/sounds/click.wav');
 let root = document.getElementById('root');
 let footer = document.getElementById('footer');
 
-projectsBtn.addEventListener ('click', function () {
-  sec1.style.display = 'none';
-  sec2.style.display = 'flex';
-  sec3.style.display = 'none';
-  audio.play ();
-  footer.style.display="none";
+// projectsBtn.addEventListener ('click', function () {
+//   sec1.style.display = 'none';
+//   sec2.style.display = 'flex';
+//   sec3.style.display = 'none';
+//   audio.play ();
+//   footer.style.display="none";
 
-});
+// });
 
 skills.addEventListener ('click', function () {
   sec1.style.display = 'none';
