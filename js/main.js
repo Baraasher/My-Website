@@ -1,4 +1,4 @@
-// let projectsBtn = document.getElementById ('projects');
+
 let sec1 = document.getElementById ('sec1');
 let sec2 = document.getElementById ('sec2');
 let sec3 = document.getElementById ('sec3');
@@ -8,15 +8,44 @@ let skills = document.getElementById ('skills');
 let audio = new Audio ('/sounds/click.wav');
 let root = document.getElementById('root');
 let footer = document.getElementById('footer');
+let modeBtn = document.getElementById('mode');
 
-// projectsBtn.addEventListener ('click', function () {
-//   sec1.style.display = 'none';
-//   sec2.style.display = 'flex';
-//   sec3.style.display = 'none';
-//   audio.play ();
-//   footer.style.display="none";
 
-// });
+
+
+modeBtn.onchange = (e) => {
+  if (modeBtn.checked === true) {
+    audio.play ();
+ 
+document.querySelector('body').classList.toggle("lightmode");
+
+  } else {
+  audio.play ();
+
+    document.querySelector('body').className="dark";
+
+
+  }
+}
+
+const mode = window.localStorage.getItem('mode');
+if (mode == 'dark') {
+  modeBtn.checked = true;
+  document.querySelector('body').classList.toggle("lightmode");
+
+
+}
+
+if (mode == 'light') {
+  modeBtn.checked = false;
+  document.querySelector('body').className="dark";
+
+
+
+}
+
+
+
 
 skills.addEventListener ('click', function () {
   sec1.style.display = 'none';
