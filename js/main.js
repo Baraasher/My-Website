@@ -1,4 +1,4 @@
-let notification = document.getElementById("notification");
+// let notification = document.getElementById("notification");
 let sec1 = document.getElementById("sec1");
 let sec2 = document.getElementById("sec2");
 let sec3 = document.getElementById("sec3");
@@ -10,30 +10,30 @@ let audio2 = new Audio("/sounds/Message.mp3");
 let root = document.getElementById("root");
 let footer = document.getElementById("footer");
 let modeBtn = document.getElementById("mode");
-let cancel = document.getElementById("cancel");
+// let cancel = document.getElementById("cancel");
 
-cancel.addEventListener("click", () => {
-  notification.className = "animate__animated animate__fadeOutRight";
+// cancel.addEventListener("click", () => {
+//   notification.className = "animate__animated animate__fadeOutRight";
 
-  setTimeout(() => {
-    notification.style.display = "none";
-  }, 2800);
-});
+//   setTimeout(() => {
+//     notification.style.display = "none";
+//   }, 2800);
+// });
 
-notification.addEventListener("click", () => {
+// notification.addEventListener("click", () => {
 
-if (cancel.click == true) {
-  event.preventDefault();
+// if (cancel.click == true) {
+//   event.preventDefault();
 
-}
+// }
 
-else{
-  window.open("https://github.com/Baraasher");
+// else{
+//   window.open("https://github.com/Baraasher");
 
-}
+// }
 
 
-});
+// });
 
 modeBtn.onchange = (e) => {
   if (modeBtn.checked === true) {
