@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>Baraa Alsher 🚀 - Software Engineer</title>
+  <title>Baraa Alsher</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 
@@ -11,8 +11,8 @@
   <!-- animate css  -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <!--  Tab icon-->
-  <link rel="apple-touch-icon" href="https://img.icons8.com/emoji/48/null/green-circle-emoji.png" />
-  <link rel="icon" href="https://img.icons8.com/emoji/48/null/green-circle-emoji.png" />
+  <link rel="apple-touch-icon" href="img/logo-rm.png" />
+  <link rel="icon" href="img/logo-rm.png" />
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <!-- Place favicon.ico in the root directory -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/add-to-calendar-button@1/assets/css/atcb.min.css">
@@ -29,12 +29,14 @@
 
 <body>
 
-  <label class="switch" >
+  <label class="switch" id="switch">
     <input type="checkbox" id="mode">
     <span style="    display: flex !important; 
     justify-content: center  !important;
     align-items: center  !important;"  class="slider"></span>
   </label>
+
+  
 
   <!-- Add your site or application content here -->
 
@@ -53,29 +55,18 @@
 
 
   <main id="root">
-    <!-- <div class="atcb" style="display:none;">
-  {
-  "name":"Reminder to star the add to calendar button repo",
-  "description":"Check out the maybe easiest way to include add to calendar buttons to your website at:<br>→
-  [url]https://github.com/add2cal/add-to-calendar-button[/url]",
-  "startDate":"today+2",
-  "endDate":"today+4",
-  "location":"World Wide Web",
-  "label":"⚙️",
-  "options":[
-  "Google",
-  "Microsoft365",
-  "Yahoo"
-  ],
-  "timeZone":"Europe/Berlin",
-  "inline":true,
-  "trigger":"click"
-  }
-</div> -->
+<div class="animate__animated animate__fadeInRight" id="notification">
+<div class="content">
+
+<img id="cancel" src="https://img.icons8.com/fluency-systems-regular/18/edf0f1/cancel.png"/>
+</div>
+</div>
+
+
 
     <section class="section-1 animate__animated animate__fadeIn" id="sec1">
-      <!-- <div id="glow"></div>
-      <img src="img/logo-rm.png" alt="mouse" loading="lazy" id="mouse" /> -->
+      <!-- <div id="glow"></div> -->
+      <!-- <img src="img/logo-rm.png" alt="mouse" loading="lazy" id="mouse" /> -->
 
       <h1 class="hi">Hello There !</h1>
       <p>
@@ -88,25 +79,13 @@
       </p>
 
 
-      <h1 class="hi">Summary</h1>
       <div id="skandpr">
 
-        <p>
-          <li class="skills" id="skills" style=" list-style: none; list-style: none;
-        display: flex;
-        justify-content: start;
-        align-items: center; "><img loading="lazy"
-              src="https://img.icons8.com/fluency/18/null/circled-chevron-right.png" alt="" srcset="">Skills</li>
-        </p>
+          <button class="skills" id="skills"
+     >Skills</button>
         <a href="https://github.com/Baraasher" style="text-decoration: none;">
 
-        <p class="project-p">
-          <li class="projects" id="" style="list-style: none;list-style: none;
-        display: flex;
-        justify-content: start;
-        align-items: center;"><img loading="lazy"
-              src="https://img.icons8.com/fluency/18/null/circled-chevron-right.png" alt="" srcset="">Projects</li> 
-        </p>
+          <button class="projects" id="#">Projects</button> 
       </a>
       </div>
 

@@ -1,7 +1,6 @@
-/*# sourceMappingURL=mode.css.map */
 :root {
     --Background:
-        #fffffe --Headline: #094067 --Paragraph: #5f6c7b --Button: #3da9fc --Button-text: #fffffe --Stroke: #094067 --Main: #fffffe --Highlight: #3da9fc --Secondary: #90b4ce --Tertiary: #ef4565
+        #f0f2f5; --Headline: #000; --Paragraph: #5f6c7b; --Button: #3da9fc; --Button-text: #f0f2f5; --Stroke: #094067; --Main: #f0f2f5; --Highlight: #3da9fc; --Secondary: #90b4ce; --Tertiary: #ef4565
 
 
     }
@@ -31,4 +30,14 @@
 .lightmode #skills:hover, .lightmode .projects:hover {
     text-shadow: unset !important;
     color: #000 !important;
+}
+
+.lightmode #skills , .lightmode .projects{
+    background: linear-gradient(90deg, #ac85e1, #7cb5ee) !important;
+    color: #000 !important;
+    border: 1.8px solid #000;
+}
+
+.lightmode #notification{
+    background-color: #e7ecff !important;
 }
