@@ -41,3 +41,7 @@
 .lightmode #notification{
     background-color: #e7ecff !important;
 }
+
+.lightmode #glow{
+    background-color: #b67bff !important;
+}

@@ -238,7 +238,17 @@ li {
 }
 #skills:hover,
 .projects:hover {
+  transition: all 0.3s ease 0s;
   cursor: pointer !important;
+  border-radius: 8px !important;
+  -webkit-border-radius: 8px ;
+  -moz-border-radius: 8px ;
+  -ms-border-radius: 8px ;
+  -o-border-radius: 8px ;
+  -webkit-transition: all 0.3s e;
+  -moz-transition: all 0.3s e;
+  -ms-transition: all 0.3s e;
+  -o-transition: all 0.3s e;
 }
 .contact-ul a img {
   height: 2rem;
@@ -279,56 +289,32 @@ li {
 }
 #glow {
   position: fixed;
-  right: 0rem;
-  bottom: 0rem;
-  width: 14rem;
-  height: 14rem;
-  -o-object-fit: contain;
-  object-fit: contain;
-  background: linear-gradient(90deg, #7145ac, #96c5f5);
-  background-size: 400%;
-  border-radius: 50%;
-  -webkit-filter: blur(60px);
-  filter: blur(60px);
-  -webkit-animation-name: glow;
-  animation-name: glow;
-  -webkit-animation-delay: 0s;
-  animation-delay: 0s;
-  -webkit-animation-duration: 15s;
-  animation-duration: 15s;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-  -webkit-animation-iteration-count: hsl(0, 0%, 60%);
-  animation-iteration-count: hsl(0, 0%, 60%);
+    right: 0rem;
+    bottom: 0rem;
+    left: 0vw;
+    top: 0;
+    z-index: -1;
+    margin: auto;
+    width: 68rem;
+    height: 14rem;
+    background: #2c1a42;
+    -o-object-fit: contain;
+    object-fit: contain;
+    border-radius: 5%;
+    -webkit-filter: blur(9px);
+    filter: blur(172px);
+    -webkit-animation-name: glow;
+    animation-name: glow;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation-duration: 15s;
+    animation-duration: 15s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: hsl(0, 0%, 60%);
+    animation-iteration-count: hsl(0, 0%, 60%);
 }
-@-webkit-keyframes glow {
-  0% {
-    -webkit-filter: blur(60px);
-    filter: blur(60px);
-  }
-  50% {
-    -webkit-filter: blur(40px);
-    filter: blur(40px);
-  }
-  100% {
-    -webkit-filter: blur(60px);
-    filter: blur(60px);
-  }
-}
-@keyframes glow {
-  0% {
-    -webkit-filter: blur(60px);
-    filter: blur(60px);
-  }
-  50% {
-    -webkit-filter: blur(40px);
-    filter: blur(40px);
-  }
-  100% {
-    -webkit-filter: blur(60px);
-    filter: blur(60px);
-  }
-}
+
 @-webkit-keyframes ani {
   0% {
     background-position: 0%;
@@ -367,8 +353,9 @@ li {
   font-weight: bold !important;
   font-size: 1.3rem !important;
   background-color: transparent !important;
-  text-shadow: 0px 0px 83px 0px #7245ace0;
+  text-shadow: 0px 0px 83px 0px #96c5f5;
   position: relative;
+  text-shadow: rgba(0, 195, 255, 0.547) 0px 0px 20px !important;
 }
 
 @media screen and (max-width: 686px) {
@@ -535,32 +522,28 @@ button {
     height: 100%;
     width: 100%;
     opacity: 100%;
-    -webkit-filter: blur(0px);
-    filter: blur(0px);
+
   }
   100% {
-    -webkit-filter: blur(20px);
-    filter: blur(20px);
+
     height: 400%;
     width: 400%;
     opacity: 0%;
-  }
+}
 }
 @keyframes zoom {
   0% {
     height: 100%;
     width: 100%;
     opacity: 100%;
-    -webkit-filter: blur(0px);
-    filter: blur(0px);
+
   }
   100% {
-    -webkit-filter: blur(20px);
-    filter: blur(20px);
+
     height: 400%;
     width: 400%;
     opacity: 0%;
-  }
+}
 }
 @media screen and (max-width: 686px) {
   section p {
@@ -856,7 +839,7 @@ input:checked + .slider:before {
   align-items: center;
   padding: 10px;
   border-radius: 50px;
-  background: linear-gradient(90deg, #7145ac, #1566b7);
+  background: linear-gradient(90deg, #956be6, #023c78);
   color: #fff;
   letter-spacing: 1px;
   font-weight: 500 !important;
@@ -864,6 +847,9 @@ input:checked + .slider:before {
   box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
     rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px !important;
+
+    text-shadow: rgba(0,0,0,1) 0px 0px 2px;
+
 }
 
 #skandpr {
