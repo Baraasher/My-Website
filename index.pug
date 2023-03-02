@@ -1,50 +1,73 @@
 doctype html
 head
-
   meta(charset='UTF-8')
   meta(http-equiv='X-UA-Compatible' content='IE=edge')
   meta(name='viewport' content='width=device-width, initial-scale=1.0')
-
   link(rel='icon' href='./favicon.ico')
   link(rel='stylesheet' href='./css/main.css')
   link(href='https://api.fontshare.com/v2/css?f[]=chillax@600,500,300&display=swap' rel='stylesheet')
   link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css')
-
-  
   title Baraa
-
-
-
-
 .container.animate__animated.animate__fadeIn
+  header#main-navbar
+    ul#getInTouch
+      li
+        a(target='_blank' href='mailto:alsher.info@gmail.com')
+          i.fa-solid.fa-envelope
+          // Get in touch
+    ul.contactIcons
+      li
+        a(target='_blank' href='https://www.linkedin.com/in/baraa-alsher/')
+          | Linkedin
+      p.slash /
+      li
+        a(target='_blank' href='https://github.com/Baraasher')
+          | Github
+      p.slash /
+      li
+        a(target='_blank' href='https://api.whatsapp.com/send?phone=970593493899')
+          | Whatsapp
+      p.slash /
+      li
+        a(target='_blank' href='https://www.youtube.com/c/MRBaraa')
+          | Youtube
+  header#main-navbar-phone-version
+    ul#getInTouch
+      li
+        a(target='_blank' href='mailto:alsher.info@gmail.com')
+          i.fa-solid.fa-envelope
+    ul.contactIcons
+      li
+        a(target='_blank' href='https://www.linkedin.com/in/baraa-alsher/')
+          i.fa-brands.fa-linkedin
+      p.slash /
+      li
+        a(target='_blank' href='https://github.com/Baraasher')
+          i.fa-brands.fa-github
+      p.slash /
+      li
+        a(target='_blank' href='https://api.whatsapp.com/send?phone=970593493899')
+          i.fa-brands.fa-whatsapp
+      p.slash /
+      li
+        a(target='_blank' href='https://www.youtube.com/c/MRBaraa')
+          i.fa-brands.fa-youtube
   .content
-
-
-
-
-    img.myImage(src='Images/MyImage.jpeg' alt='MyImage' loading='lazy')
-
-    h1.myName Baraa Alsher
-    p.myDicription Software Engineer || Android Developer
-
-    .contactIcons
-    
-      a(target='_blank' href='https://www.linkedin.com/in/baraa-alsher/')
-        i.fa-brands.fa-linkedin
-      a(target='_blank' href='https://github.com/Baraasher')
-        i.fa-brands.fa-github
-      a(target='_blank' href='mailto:alsher.info@gmail.com')
-        i.fa-solid.fa-envelope
-      a(target='_blank' href='https://api.whatsapp.com/send?phone=970593493899')
-        i.fa-brands.fa-whatsapp
-      a(target='_blank' href='https://www.youtube.com/c/MRBaraa')
-        i.fa-brands.fa-youtube
-
-
-
-
-
-
-
+    // <img class="myImage" src="Images/MyImage.png" alt="MyImage" loading="lazy" />
+    h6.myName Hello I&apos;m Baraa
+    p.myDicription
+      | Software engineer specializing 
+      br
+      |  in modern technologies
+    button#linkedinButton
+      | Open Linkedin 
+      i.fa-solid.fa-arrow-up-right-from-square
+    footer
+      p#copyright
+        | &copy; 
+        span#copyrightdate
+          script.
+            document.write(new Date().getFullYear());
+        |   All rights reserved.
 script(src='https://kit.fontawesome.com/4824b5dc23.js' crossorigin='anonymous')
 script(src='./js/main.js')
