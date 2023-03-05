@@ -7,7 +7,6 @@ const data = [
       "https://media.licdn.com/dms/image/C4D22AQGTRzUamcALbQ/feedshare-shrink_2048_1536/0/1675317090777?e=1680739200&v=beta&t=rPFm5pG2bGKor8f3dOOTmHbv5xrfYPej1yjk3w4y-QQ",
     date: "2022-11-20",
     desc: "Simple web tool project that will help designers and developers experiment with it and possibly adapt it",
-
     link: "https://gradientscss.vercel.app/",
   },
 

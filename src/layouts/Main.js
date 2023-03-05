@@ -6,6 +6,7 @@ import Analytics from '../components/Template/Analytics';
 import Navigation from '../components/Template/Navigation';
 import SideBar from '../components/Template/SideBar';
 import ScrollToTop from '../components/Template/ScrollToTop';
+import 'animate.css';
 
 const Main = (props) => (
   <HelmetProvider>
@@ -17,7 +18,7 @@ const Main = (props) => (
     </Helmet>
     <div id="wrapper">
       <Navigation />
-      <div id="main">
+      <div id="main" className='animate__animated animate__fadeIn'>
         {props.children}
       </div>
       {props.fullPage ? null : <SideBar />}

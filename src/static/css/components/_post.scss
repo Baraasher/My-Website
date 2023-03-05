@@ -7,11 +7,16 @@
 /* Post */
 
 	.post {
-		@include padding(_size(section-spacing), _size(section-spacing));
-		background: _palette(bg);
-		border: solid 1px _palette(border);
-		margin: 0 0 _size(section-spacing) 0;
+		padding: 3em 3em 1em 3em;
+		background: #fffffe;
+		border: solid 1px rgba(1, 1, 1, 0.1529411765);
+		margin: 0 0 3em 0;
 		position: relative;
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
+		background: none;
+		border: none;
 
 		> header {
 			@include vendor('display', 'flex');
