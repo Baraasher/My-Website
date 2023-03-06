@@ -250,3 +250,70 @@
 			}
 		}
 	}
+
+	#github-card{
+		background-image: linear-gradient( 94.3deg,  rgba(26,33,64,1) 10.9%, rgba(81,84,115,1) 87.1% );
+		width: 500px;
+		height: 200px;
+		display: flex;
+		justify-content: center;
+		align-items: start;
+		gap: 1rem;
+		padding: 20px;
+		border-radius: 14px;
+		color: #edf0f1 !important;
+		flex-direction: column;
+		transition: all 0.3s ease 0s;
+		
+	}
+
+
+	#github-card:hover{
+        transform: scale(1.05);
+
+    }
+
+	#github-card h2{
+		color: #edf0f1;
+	}
+
+	#github-card h6{
+		color: #edf0f1;
+		opacity: 70%;
+	}
+
+
+
+	
+
+
+	#youtube-card{
+		background-image: radial-gradient( circle 346px at 0.3% 100%,  rgba(62,76,167,1) 0%, rgba(255,99,145,1) 100.7% );		width: 500px;
+		height: 200px;
+		display: flex;
+		justify-content: center;
+		align-items: start;
+		gap: 1rem;
+		padding: 20px;
+		border-radius: 14px;
+		color: #edf0f1 !important;
+		flex-direction: column;
+		transition: all 0.3s ease 0s;
+		margin-top: 2rem;
+		
+	}
+
+	
+	#youtube-card:hover{
+        transform: scale(1.05);
+
+    }
+
+	#youtube-card h2{
+		color: #edf0f1;
+	}
+
+	#youtube-card h6{
+		color: #edf0f1;
+		opacity: 70%;
+	}

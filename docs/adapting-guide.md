@@ -47,7 +47,7 @@ as a shortcut.
 
 I recommend purchasing your own domain name from [Google Domains](https://domains.google). If you would like to host on github pages, run `npm run deploy`. This generates a new branch called `gh-pages`. Then go to `https://github.com/[your-github-username]/[your-repo-name]/settings` and configure accordingly:
 
-<center><img src="images/gh-pages.png"></center>
+<center><img loading="lazy" src="images/gh-pages.png"></center>
 
 Next, configure your domains DNS record. See [here](https://help.github.com/articles/using-a-custom-domain-with-github-pages/) for more information. After a few minutes, your website should be live on your domain.
 

@@ -1,8 +1,11 @@
 
 # Summary
 
-Android Developer and Software Engineer with a passion for developing innovative and user-friendly apps. I have a strong background in software engineering, mobile application development, and database design. My experience includes developing mobile applications for Android platforms, as well as creating web-based applications using HTML, CSS, JavaScript, and other web technologies. I am highly motivated to create reliable and effective software solutions that meet customer needs. I am also committed to staying current with the latest technologies and trends in the industry.
+Hello, I'm Baraa, a front-end developer with a passion for creating beautiful, user-friendly websites. I've always been fascinated by the intersection of design and technology, and I love using my skills to bring digital experiences to life.
 
+In my work, I strive to create websites that are not only visually stunning but also intuitive and easy to use. Whether I'm building a simple landing page or a complex web application, I always keep the user in mind and aim to create an experience that is both enjoyable and efficient.
+
+Thank you for taking the time to check out my portfolio! If you have any questions or would like to work together on a project, please don't hesitate to get in touch.
 
 # Skills
 
@@ -10,6 +13,7 @@ Android Developer and Software Engineer with a passion for developing innovative
 - CSS
 - JavaScript
 - Bootstrap
+- Tailwind
 - React
 - Java
 - Kotlin
@@ -23,4 +27,4 @@ Android Developer and Software Engineer with a passion for developing innovative
 # Experience
 
 
-Software Engineer at <a href= "#">Ema-ark redbyrå</a>
+Software Engineer at <a id="ema" style href= "#">Ema-ark redbyrå</a>
