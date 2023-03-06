@@ -19,8 +19,11 @@ const SideBar = () => (
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Android Developer and Software Engineer with a passion for developing innovative and user-friendly apps
-      </p>
+<p>
+  Hello, I'm Baraa, a front-end developer with a passion for creating beautiful, user-friendly websites.
+
+</p>
+
       {/* <ul className="actions">
         <li>
           {!window.location.pathname.includes('/resume') ? <Link to="/resume" className="button">Learn More</Link> : <Link to="/about" className="button">About Me</Link>}
